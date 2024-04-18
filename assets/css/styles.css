@@ -1,0 +1,170 @@
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 50px;
+}
+  
+  h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-family: "Rubik", sans-serif;
+    line-height: 0px;
+    text-transform: uppercase;
+  }
+
+  h2{
+    font-family: "Rubik", sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+  }
+
+  h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+  }
+
+  h4{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0;
+    font-optical-sizing: auto; 
+  }
+
+  .informacion-personal{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .informacion-contacto p, a{
+    font-size: 20px;
+    text-align: right;
+  }
+
+
+  .informacion-relevante{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  ol,ul{
+    padding-inline-start: 20px;
+  }
+
+  li{
+    line-height: 30px;
+  }
+  .experiencia{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .universidad{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+
+  .subtitulo{
+    font-size: 25px;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+  }
+
+  .informacion-complementaria{
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: right;
+    
+  }
+  .curso{
+    line-height: 8px;
+  }
+
+  .curso p{
+    padding-top: 5px;
+  }
+
+  .curso b{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .redes{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .link{
+    display: inherit;
+    align-items: center; 
+    gap: 5px;
+    justify-content: end;
+  }
+
+  .link a{
+    font-size: 15px;
+  }
+
+  .link-portafolio{
+    font-size: 18px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: black wavy underline;
+  }
+
+  /*portafolio*/
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    max-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  
